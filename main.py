@@ -45,7 +45,7 @@ download_button = ttk.Button(root,
                              text="Download",
                              command= lambda : download(insert_link_entry.get(), is_mp3.get()),
                              bootstyle=DANGER)
-title_label.pack(pady=20)
+title_label.pack(pady=20) #
 insert_link_frame.pack(padx=20, pady=20)
 insert_link_entry.pack(padx=20, pady=15)
 output_dir_frame.pack()
