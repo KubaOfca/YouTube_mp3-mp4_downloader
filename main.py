@@ -8,7 +8,7 @@ from time import sleep
 
 def download(link, is_mp3):
     path = output_dir_entry.get()
-    download_progress['value'] = 50 #
+    download_progress['value'] = 50
     root.update_idletasks()
 
     MP3_OPTS = {
